@@ -1,0 +1,7 @@
+{
+  "name": "ionic8-authorization-google-calendar-api",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
