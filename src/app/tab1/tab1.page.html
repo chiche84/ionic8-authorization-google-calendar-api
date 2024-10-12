@@ -13,5 +13,13 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-button (click)="AbriroAuthWeb()" shape="round">
+    <ion-icon slot="start" name="logo-google"></ion-icon>
+    oAuth 2.0 Web
+  </ion-button>
+
+  <ion-button (click)="AbriroAuthAndroid()" shape="round">
+    <ion-icon slot="start" name="logo-google"></ion-icon>
+    oAuth 2.0 Android
+  </ion-button>
 </ion-content>
